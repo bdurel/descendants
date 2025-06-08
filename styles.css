@@ -698,7 +698,8 @@ blockquote footer {
   padding-top: 8rem;
   padding-bottom: 8rem;
   margin-left: calc(50% - 50vw);
-  background: url('/images/backgrounds/descendants-bg.png') center center / cover no-repeat fixed;
+  background: url('/images/backgrounds/descendants-blue-bg3.webp') center center / cover no-repeat
+    fixed;
   color: #f1f0ea;
   color: #f0e9db;
 }
@@ -768,7 +769,8 @@ blockquote footer {
   display: flex;
   align-items: center;
   width: 100%;
-  background: url('/images/backgrounds/descendants-bg.png') center center / cover no-repeat fixed;
+  background: url('/images/backgrounds/descendants-blue-bg3.webp') center center / cover no-repeat
+    fixed;
   color: #f1f0ea;
   padding: 1.2rem 3rem;
   box-sizing: border-box;

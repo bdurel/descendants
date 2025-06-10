@@ -539,7 +539,7 @@
         slidingDir = -1
         strip.style.transition = 'none'
         strip.insertBefore(strip.lastElementChild, strip.firstElementChild)
-        strip.style.transform = `translateX(-${thumbWidth}px)`
+        strip.style.transform = `translateX(-${getThumbWidth()}px)`
 
         requestAnimationFrame(() => {
           requestAnimationFrame(() => {

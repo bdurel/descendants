@@ -510,13 +510,15 @@
       })
 
       // Infinite gallery carousel functionality
-      const thumbWidth =
-        strip.querySelector('.gallery-item').getBoundingClientRect().width +
-        parseFloat(getComputedStyle(strip).gap || 0)
+
+      function getThumbWidth() {
+        const first = strip.querySelector('.gallery-item')
+        return first.getBoundingClientRect().width + parseFloat(getComputedStyle(strip).gap || 0)
+      }
 
       function slideLeft() {
         strip.style.transition = 'transform .45s ease'
-        strip.style.transform = `translateX(-${thumbWidth}px)`
+        strip.style.transform = `translateX(-${getThumbWidth()}px)`
       }
 
       strip.addEventListener('transitionend', (e) => {
@@ -545,6 +547,17 @@
             strip.style.transform = 'translateX(0)'
           })
         })
+      })
+
+      let resizeTO
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTO)
+        resizeTO = setTimeout(() => {
+          if (!mqGrid.matches) {
+            strip.style.transition = 'none'
+            strip.style.transform = 'translateX(0)'
+          }
+        }, 150)
       })
 
       // Orient portrait/landscape images

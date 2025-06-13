@@ -156,6 +156,11 @@ blockquote footer {
   box-sizing: border-box;
 }
 
+.book-3d__cover,
+.book-2d {
+  aspect-ratio: 1365 / 2048;
+}
+
 .book-2d {
   display: none;
 }
@@ -310,6 +315,7 @@ blockquote footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  aspect-ratio: 1365 / 2048;
 }
 
 .carousel-slide.active {
@@ -451,6 +457,11 @@ blockquote footer {
 
 .gallery-item:hover img {
   transform: scale(1.03);
+}
+
+.gallery-item:focus-visible img {
+  outline: 3px solid #b4966e;
+  outline-offset: 4px;
 }
 
 .gallery-nav {
@@ -782,6 +793,7 @@ blockquote footer {
   width: auto;
   display: block;
   padding-bottom: 0.48rem;
+  aspect-ratio: 1577 / 247;
 }
 
 .site-header nav {

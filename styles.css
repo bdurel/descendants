@@ -459,9 +459,9 @@ blockquote footer {
   transform: scale(1.03);
 }
 
-.gallery-item:focus-visible img {
-  outline: 3px solid #b4966e;
-  outline-offset: 4px;
+.gallery-item:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: -3px;
 }
 
 .gallery-nav {

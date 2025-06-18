@@ -701,6 +701,7 @@ blockquote footer {
   text-align: center;
   font-size: 0.9rem;
   color: #f0e9db;
+  background: linear-gradient(to right, #151d2c 0%, #1a2638 50%, #151d2c 100%);
 }
 
 .praise-section {

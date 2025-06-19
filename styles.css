@@ -53,7 +53,7 @@ blockquote footer {
 .author-section {
   width: 100vw;
   margin-left: calc(50% - 50vw);
-  background: linear-gradient(145deg, #d4c4a4 0%, #b4966e 60%, #b4966e 100%);
+  background: linear-gradient(145deg, #d4c4a4 0%, #b4966e 95%, #b4966e 100%);
   color: #1e1e1e;
 }
 

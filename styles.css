@@ -722,10 +722,8 @@ blockquote footer {
   border: 1px solid #1e1e1e;
 }
 
-.past-events-heading {
-  font: 300 1.85rem/1.1 'Cormorant Garamond', serif;
-  color: #532e04;
-  margin: 2 0 2rem;
+.past-events-heading-container {
+  margin: 2rem 0 2rem;
 }
 
 .past-events summary {

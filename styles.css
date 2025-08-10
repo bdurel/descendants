@@ -336,6 +336,13 @@ blockquote footer {
   margin: 0 auto;
 }
 
+.events-intro {
+  margin: -0.25rem 0 1.25rem;
+  color: #1e1e1e;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
 .events-list {
   list-style: none;
   margin: 0;
@@ -702,6 +709,54 @@ blockquote footer {
   font-size: 0.9rem;
   color: #f0e9db;
   background: linear-gradient(to right, #151d2c 0%, #1a2638 50%, #151d2c 100%);
+}
+
+.btn-contact {
+  display: inline-block;
+  margin-top: 0rem;
+  padding: 0.6rem 1.5rem;
+  font: 300 1rem/1 'Raleway', sans-serif;
+  letter-spacing: 0.04em;
+  color: #1e1e1e;
+  text-decoration: none;
+  border: 1px solid #1e1e1e;
+}
+
+.past-events-heading {
+  font: 300 1.85rem/1.1 'Cormorant Garamond', serif;
+  color: #532e04;
+  margin: 2 0 2rem;
+}
+
+.past-events summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  font: 300 1rem/1 'Raleway', sans-serif;
+  letter-spacing: 0.04em;
+  color: #1e1e1e;
+  text-decoration: none;
+  border: 1px solid #1e1e1e;
+  user-select: none;
+}
+
+.past-events summary::-webkit-details-marker { display: none; }
+.past-events .label-hide { display: none; }
+.past-events[open] > summary { display: none; }
+.past-events[open] .label-show { display: none; }
+.past-events[open] .label-hide { display: inline; }
+
+.past-hide-bottom {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.5rem;
+  font: 300 1rem/1 'Raleway', sans-serif;
+  letter-spacing: 0.04em;
+  color: #1e1e1e;
+  text-decoration: none;
+  border: 1px solid #1e1e1e;
 }
 
 .praise-section {

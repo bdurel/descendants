@@ -682,7 +682,7 @@
           .sort((a, b) => a.time - b.time);
         const past = events
           .filter((e) => e.isPast)
-          .sort((a, b) => b.time - a.time);
+          .sort((a, b) => a.time - b.time);
 
         // Re-render upcoming
         upcomingList.innerHTML = "";
